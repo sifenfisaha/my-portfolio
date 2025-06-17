@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Italiana&family=Major+Mono+Display&family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ruslan+Display&family=Splash&display=swap");
+@import "tailwindcss";
+
+body {
+  background-image: url("/bg.svg");
+}
+
+.inert {
+  font-family: "Inter", sans-serif;
+}
+.splash {
+  font-family: "Splash", cursive;
+}
+.rage {
+  font-family: "Road Rage", sans-serif;
+}
+
+.istok {
+  font-family: "Istok Web", sans-serif;
+}
