@@ -10,13 +10,13 @@ const Navbar: React.FC = () => {
             <a className="cursor-pointer" href="#about">
               About Me**
             </a>
-            <a className="cursor-pointer" href="#">
+            <a className="cursor-pointer" href="#projects">
               My Work**
             </a>
           </li>
         </ul>
         <button>
-          <a className="cursor-pointer text-nowrap" href="$">
+          <a className="cursor-pointer text-nowrap" href="#">
             Lets Work
           </a>
         </button>

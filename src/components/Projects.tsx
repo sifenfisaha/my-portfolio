@@ -3,7 +3,10 @@ import arrowIcon from "../assets/arrow.svg";
 import Project from "./Project";
 const Projects: React.FC = () => {
   return (
-    <section className="border-gray-300 px-6 py-6  border-b-0 border-2 border-t-0">
+    <section
+      id="projects"
+      className="border-gray-300 px-6 py-6  border-b-0 border-2 border-t-0"
+    >
       <h1 className="manjaro text-4xl max-w-xl">
         Featured Work (AKA My Greatest Hits)*
       </h1>
