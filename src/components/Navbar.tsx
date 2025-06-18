@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
       <nav className=" flex items-center justify-between  ">
         <ul className="md:flex hidden items-center justify-between w-full">
           <li className="flex items-center justify-center gap-10 ">
-            <a className="cursor-pointer" href="#">
+            <a className="cursor-pointer" href="#about">
               About Me**
             </a>
             <a className="cursor-pointer" href="#">

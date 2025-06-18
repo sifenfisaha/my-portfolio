@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Italiana&family=Major+Mono+Display&family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ruslan+Display&family=Splash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Italiana&family=Major+Mono+Display&family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ruslan+Display&family=Splash&display=swap");
+
 @import "tailwindcss";
 
 body {
@@ -17,4 +18,25 @@ body {
 
 .istok {
   font-family: "Istok Web", sans-serif;
+}
+.italiana {
+  font-family: "Italiana", sans-serif;
+}
+
+.comic {
+  font-family: "Comic Neue", cursive;
+}
+.manjaro {
+  font-family: "Major Mono Display", monospace;
+}
+
+.custom-dashed-border {
+  border-style: dashed;
+  border-width: 3px;
+  border-image: repeating-linear-gradient(
+      to right,
+      black 0 10px,
+      transparent 10px 20px
+    )
+    1;
 }

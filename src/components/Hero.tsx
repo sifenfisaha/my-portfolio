@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-      <p className="text-gray-400  py-12">
+      <p className="text-gray-500  py-12">
         "Keep those fingers busy and scroll down—there’s more awesomeness
         waiting! ^_~ 🚀"
       </p>
@@ -37,6 +37,3 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
-
-// Hey, I’m Sifen!
-// I’m a self-taught front-end developer who loves turning ideas into real, usable things on the web. I care about clean code, good design, and making stuff that actually works. Still learning, always improving—but ready to build something awesome together. Let’s create!
